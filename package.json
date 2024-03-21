@@ -1,0 +1,59 @@
+{
+  "name": "repudiandaevelit",
+  "version": "1.0.0",
+  "description": "0xcert protocol token implementation for the Ethereum blockchain.",
+  "main": "truffle.js",
+  "directories": {
+    "contracts": "contracts",
+    "migrations": "migrations",
+    "test": "test"
+  },
+  "scripts": {
+    "clean": "rm -Rf ./build",
+    "compile": "truffle compile",
+    "console": "truffle console",
+    "flatten": "mkdir -p build && truffle-flattener contracts/**/*.sol >> build/bundle.sol",
+    "lint": "eslint './**/*.js?(x)'",
+    "migrate": "truffle migrate",
+    "networks": "truffle networks",
+    "postpublish": "npm run clean",
+    "prepublish": "npm run compile",
+    "test": "npm run clean && truffle test"
+  },
+  "author": "TryciaMayer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeonReichert/repudiandaevelit.git"
+  },
+  "keywords": [
+    "voluptatem",
+    "et",
+    "vero",
+    "et",
+    "nostrum",
+    "vitae",
+    "sint",
+    "smart-contracts",
+    "token",
+    "tokens",
+    "fungible",
+    "vel",
+    "distinctio",
+    "eveniet",
+    "erc20",
+    "erc-20",
+    "assumenda",
+    "voluptatem",
+    "quidem",
+    "zxc"
+  ],
+  "devDependencies": {
+    "truffle": "^4.1.11",
+    "truffle-flattener": "^1.2.5"
+  },
+  "dependencies": {
+    "@0xcert/ethereum-erc20": "^1.2.1",
+    "@0xcert/ethereum-utils": "1.1.0"
+  }
+}
